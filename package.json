@@ -1,10 +1,10 @@
 {
-  "name": "html5-webpack",
+  "name": "html5-template-webpack-less",
   "version": "1.0.0",
   "description": "",
   "main": "src/js/script.js",
   "scripts": {
-    "app" : "npm run server & npm run less-watch",
+    "app": "npm run server & npm run less-watch",
     "build": "webpack --mode production",
     "server": "webpack serve --mode development",
     "less-compile": "lessc ./src/css/styles.less  ./src/css/styles.css",
