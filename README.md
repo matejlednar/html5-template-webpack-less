@@ -12,7 +12,7 @@ The build tool is included (CSS and JS optimization support).
 
 ```npm install```
 
-##
+## Scripts
 
 ### Run project/server
 
@@ -32,15 +32,15 @@ Build project into the ```dist``` output directory.
 
 ``` npm run less-watch ```
 
-### Run build/production version
+## Run build/production version
 
 Run index.html file (dist/index.html).
 You can use the Live server to run index.html.
 
-### Configuration
+## Configuration
 
-#### npm 
-##### JavaScript entry point
+### npm 
+#### JavaScript entry point
 
 Edit package.json file.
 
@@ -48,8 +48,8 @@ Change the entry point here.
 
 ``` "main": "src/js/script.js",```
 
-#### webpack
-##### output directory
+### webpack
+#### output directory
 
 Edit webpack.config.js file.
 
