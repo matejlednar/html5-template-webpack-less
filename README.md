@@ -49,7 +49,7 @@ Change the entry point here.
 ``` "main": "src/js/script.js",```
 
 ### webpack
-#### output directory
+#### Output directory
 
 Edit webpack.config.js file.
 
