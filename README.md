@@ -1,6 +1,6 @@
 # HTML5 Template + webpack + Less
 
-HTML5 template with Less, JavaScript, images, and fonts support.
+HTML5 template with webpack, Less, JavaScript, images, and fonts support.
 The build tool is included (CSS and JS optimization support).
 
 ## Prerequisites
@@ -20,6 +20,8 @@ The build tool is included (CSS and JS optimization support).
 
 ### Build project
 
+Build project into the ```dist``` output directory.
+
 ``` npm run build ```
 
 ### Compile less file
@@ -38,9 +40,19 @@ You can use the Live server to run index.html.
 ### Configuration
 
 #### npm 
+##### JavaScript entry point
 
 Edit package.json file.
 
 Change the entry point here.
 
 ``` "main": "src/js/script.js",```
+
+#### webpack
+##### output directory
+
+Edit webpack.config.js file.
+
+Change the output directory here.
+
+```path: path.resolve(__dirname, "dist"),```
