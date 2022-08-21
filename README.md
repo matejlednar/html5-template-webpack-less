@@ -1,4 +1,4 @@
-# HTML5 Template + webpack + Less
+# HTML5 Template + webpack + Less (Boilerplate + Build tool)
 
 HTML5 template with webpack, Less, JavaScript, images, and fonts support.
 The build tool is included (CSS and JS optimization support).
