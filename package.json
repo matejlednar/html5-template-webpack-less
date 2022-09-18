@@ -7,8 +7,8 @@
     "app": "npm run server & npm run less-watch",
     "build": "webpack --mode production",
     "server": "webpack serve --mode development",
-    "less-compile": "lessc ./src/css/styles.less  ./src/css/styles.css",
-    "less-watch": "less-watch-compiler ./src/css ./src/css styles.less",
+    "less-compile": "lessc ./src/less/styles.less  ./src/css/styles.css",
+    "less-watch": "less-watch-compiler ./src/less ./src/css styles.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

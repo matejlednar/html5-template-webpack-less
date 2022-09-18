@@ -1,7 +1,25 @@
 # HTML5 Template + webpack + Less (Boilerplate + Build tool)
 
-HTML5 template with webpack, Less, JavaScript, images, and fonts support.
+HTML5 template with webpack, Less boilerplate.
 The build tool is included (CSS and JS optimization support).
+
+## Included
+- Less support
+- webpack
+- JavaScript Support
+- Fonts support
+- Images support
+- JS optimization
+- CSS optimization
+- Build tool
+
+# File structure
+- src/less/styles.less - place your less code here,
+- src/css/styles.css - auto-generated CSS by watch script (don't edit),
+- src/js/script.js - place your JavaScript here ,
+- src/fonts - place your fonts here,
+- src/images - place your images here,
+- src/index.html - place your HTML here,
 
 ## Prerequisites
 
